@@ -1,0 +1,52 @@
+h1 {
+    font-size: 36px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 20px 0;
+}
+
+
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: center;
+    margin:0% 30%;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+input[type="submit"] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+
+}
+
+pre {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: left;
+    white-space: pre-wrap;
+    text-align: center;
+    font-size: 18px;
+    margin:0% 30%;
+}
