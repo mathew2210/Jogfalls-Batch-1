@@ -1,0 +1,83 @@
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+</head>
+<style>
+
+div {
+ 
+  width: 900px;
+  border: 50px ;
+  padding: 10px;
+  margin: 120px;
+}
+form{
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: center;
+    margin:1% 5%;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+}
+
+input[type="submit"] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: cyan;
+    color: black;
+    cursor: pointer;
+
+}
+
+pre {
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: left;
+    white-space: pre-wrap;
+    text-align: center;
+    font-size: 18px;
+    margin:1% 5%;
+}
+body{
+	background-image: url('bg.jpg');
+	}
+}
+
+</style>
+
+<body>
+
+<center><div>
+<form method="post">
+        Command: <input type="text" name="command"><br>
+       <center> <input type="submit" value="Submit"></center>
+    </form>
+    
+    
+    
+    <pre>{{result}}</pre> </div></center>
+</body>
+
+</html>
